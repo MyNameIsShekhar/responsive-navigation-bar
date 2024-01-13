@@ -91,6 +91,10 @@ a {
 .nav__logo i {
   font-size: 1.25rem;
 }
+.nav__logo img {
+  width: 40px; /* Adjust the width as per your requirement */
+  height: auto; /* Maintain aspect ratio */
+}
 .nav__logo:hover {
   color: var(--first-color);
 }
