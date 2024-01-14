@@ -171,12 +171,12 @@ a {
 /* Show icon */
 .show-icon .nav__toggle-menu {
   opacity: 0;
-  transform: rotate(90deg);
+  transform: rotate(900deg);
 }
 
 .show-icon .nav__toggle-close {
   opacity: 1;
-  transform: rotate(90deg);
+  transform: rotate(900deg);
 }
 
 /*=============== DROPDOWN ===============*/
