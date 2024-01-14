@@ -91,7 +91,7 @@ a {
 }
 
 .nav__left-image {
-  width: 40px; /* Adjust the width as per your requirement */
+  width: 60px; /* Adjust the width as per your requirement */
   height: auto; /* Maintain aspect ratio */
   margin-right: 10px; /* Add margin between left image and logo image */
 }
@@ -103,7 +103,7 @@ a {
 }
 
 .nav__logo img {
-  width: 60px; /* Adjust the width as per your requirement */
+  width: 80px; /* Adjust the width as per your requirement */
   height: auto; /* Maintain aspect ratio */
 }
 .nav__logo:hover {
