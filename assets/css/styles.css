@@ -80,17 +80,28 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.nav__logo {
-  display: inline-flex;
-  align-items: center;
-  column-gap: 0.25rem;
-  color: var(--title-color);
-  font-weight: var(--font-semi-bold);
-  transition: color 0.3s;
-}
+
 .nav__logo i {
   font-size: 1.25rem;
 }
+
+.nav__logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav__left-image {
+  width: 40px; /* Adjust the width as per your requirement */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add margin between left image and logo image */
+}
+
+.nav__logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
 .nav__logo img {
   width: 40px; /* Adjust the width as per your requirement */
   height: auto; /* Maintain aspect ratio */
