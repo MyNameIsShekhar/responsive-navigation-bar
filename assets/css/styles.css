@@ -163,7 +163,7 @@ a {
 
 /* Show menu */
 .show-menu {
-  opacity: 1;
+  opacity: 0;
   top: 5.5rem;
   pointer-events: initial;
 }
@@ -171,12 +171,12 @@ a {
 /* Show icon */
 .show-icon .nav__toggle-menu {
   opacity: 0;
-  transform: rotate(900deg);
+  transform: rotate(90deg);
 }
 
 .show-icon .nav__toggle-close {
   opacity: 1;
-  transform: rotate(900deg);
+  transform: rotate(90deg);
 }
 
 /*=============== DROPDOWN ===============*/
