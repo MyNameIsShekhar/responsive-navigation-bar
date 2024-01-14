@@ -132,7 +132,7 @@ a {
     background-color: var(--body-color);
     position: absolute;
     left: 0;
-    top: 5.5rem;
+    top: 2.5rem;
     width: 100%;
     height: calc(100vh - 3.5rem);
     overflow: auto;
@@ -164,7 +164,7 @@ a {
 /* Show menu */
 .show-menu {
   opacity: 1;
-  top: 3.5rem;
+  top: 5.5rem;
   pointer-events: initial;
 }
 
